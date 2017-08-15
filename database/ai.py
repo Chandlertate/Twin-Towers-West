@@ -27,8 +27,8 @@ def create_response(sentence):
         msg = data['wel']
     
     #Call All
-    if "@holderby" in sentence:
-        msg = "@Meena elango @Gabriel Poindexter"
+    #if "@holderby" in sentence:
+     #   msg = "@Meena elango @Gabriel Poindexter"
     #8 Ball
     eight_ball = ['It is certain', ' It is decidedly so', 'Without a doubt', 'Yes definitely', 'You may rely on it',
               'As I see it, yes', 'Most likely', 'Outlook good', 'Yes', 'Signs point to yes',
