@@ -26,6 +26,9 @@ def create_response(sentence):
     if sentence == "!wel":
         msg = data['wel']
     
+    #Call All
+    if "@holderby" in sentence:
+        msg = "@Meena elango @Gabriel Poindexter"
     #8 Ball
     eight_ball = ['It is certain', ' It is decidedly so', 'Without a doubt', 'Yes definitely', 'You may rely on it',
               'As I see it, yes', 'Most likely', 'Outlook good', 'Yes', 'Signs point to yes',
@@ -43,10 +46,10 @@ def create_response(sentence):
         msg = catfacts[num]
                        
     #Responses    
-    if "lunch" in sentence.lower():
-        msg = "Is it on the PCard?"    
-    if "dinner" in sentence.lower():
-        msg = "Is it on the PCard?"   
+    #if "lunch" in sentence.lower():
+     #   msg = "Is it on the PCard?"    
+    #if "dinner" in sentence.lower():
+     #   msg = "Is it on the PCard?"   
     if "dorm" in sentence.lower():
         msg = "*Residence Hall"
 
