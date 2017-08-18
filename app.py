@@ -17,7 +17,7 @@ def webhook():
   sentence = parse.lower()
   response = create_response(sentence)
   if response:
-    if data['name'] != "Marco Bot":
+    if data['name'] != "Christian Bot":
       send_message(response)
   return "ok", 200
 
