@@ -1,5 +1,4 @@
 import random
-import os
 from database.cat_facts import catfacts
 
 def create_response(sentence):
